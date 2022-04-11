@@ -1,0 +1,282 @@
+.container {
+  width: 996px;
+  margin: 0px auto;
+  font-size: 1em;
+}
+
+section,
+aside {
+  padding: 10px;
+  background: #ccc;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+}
+
+section {
+  float: left;
+  width: 70%;
+}
+
+aside {
+  float: right;
+  width: 25%;
+}
+
+nav {
+  overflow: hidden;
+}
+
+nav ul {
+  list-style-type: none;
+  float: left;
+  padding: 0px;
+}
+
+nav ul li {
+  float: left;
+  padding: 3px 10px;
+  margin: 2px;
+  background: black;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+}
+
+footer {
+  margin: 10px;
+  text-align: center;
+  clear: both;
+}
+
+/* para 980px o menos */
+@media screen and (max-width: 980px) {
+  .container {
+    width: 98%;
+  }
+
+  section {
+    width: 68%;
+  }
+}
+
+/* para 700px o menos */
+@media screen and (max-width: 700px) {
+  aside,
+  section {
+    float: none;
+    width: 96%;
+  }
+
+  nav,
+  section {
+    font-size: 1.2em;
+  }
+
+  aside {
+    margin-top: 5px;
+  }
+
+  nav ul {
+    float: none;
+    clear: both;
+  }
+}
+
+/* para 480px o menos */
+@media screen and (max-width: 480px) {
+  aside {
+    display: none;
+  }
+
+
+  
+  section {
+    font-size: 1.5em;
+  }
+
+  section {
+    width: 94%;
+  }
+
+
+
+  nav ul {
+    float: left;
+    clear: none;
+    width: 50%;
+    
+  }
+
+  nav ul li {
+    float: none;
+  }
+}
+/*TITULOS PRINCIPALES*/
+.tituloprincipal {
+  text-align: left;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  letter-spacing: 5px;
+
+  background: linear-gradient(white, black);
+  -webkit-background-clip: text;
+  color: transparent;
+  padding: 20px;
+  -webkit-text-stroke: 1px whitesmoke;
+  color: transparent;
+}
+
+/*Header*/
+
+.header {
+  background-color: #282929;
+  justify-content: space-between;
+
+  text-align: center;
+}
+
+
+/*BODY*/
+a {
+  text-decoration: none;
+  color: #282929;
+}
+
+body {
+  background-color: #282929;
+  background: linear-gradient(black, white);
+  -webkit-background-clip: text;
+  color: transparent;
+  padding: 20px;
+  -webkit-text-stroke: 1px whitesmoke;
+  color: transparent;
+}
+
+section {
+  background-color: #242525;
+  border: solid whitesmoke;
+}
+
+.subtitulo {
+  text-align: center;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+  letter-spacing: 5px;
+
+}
+
+/*IMAGENES*/
+
+
+
+.YO{
+  width: 400px;
+  object-fit: cover;
+  height: 520px;
+  text-align:center;
+  border: solid whitesmoke;
+  margin-top: 20px;
+}
+
+
+#Container-imagenes1 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+.imagen1 {
+  width: 190px;
+  object-fit: cover;
+  height: 260px;
+  text-align: center;
+  margin-left: 25px;
+  border: solid whitesmoke;
+}
+
+#container-imagenes-deportes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+.imagen3 {
+  width: px;
+  object-fit: cover;
+  height: 200px;
+  text-align: center;
+  margin-left: 25px;
+  border: solid whitesmoke;
+}
+
+
+
+
+.bandera{
+width: 691px;
+height: 350px;
+margin-top: 20px;
+border: solid 2px white;
+text-align: center;
+}
+
+.imagen-yo {
+  width: 170px;
+  object-fit: cover;
+  height: 240px;
+  text-align: center;
+  border: solid whitesmoke;
+  margin-top: 20px;
+}
+/*Aside*/
+.titulo-aside {
+  text-align: center;
+}
+
+/*Footer*/
+#footer {
+  text-align: center;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  letter-spacing: 5px;
+
+  background: linear-gradient(black, white);
+  -webkit-background-clip: text;
+  color: transparent;
+  padding: 20px;
+  -webkit-text-stroke: 1px black;
+  color: transparent;
+}
+
+.camara{
+  text-align: center;
+}
+
+.camara2{
+ width: 90%;
+height: 90%;
+border: solid 2px whitesmoke;
+border-radius: 6px;
+}
+
+.Fotos-Social{
+  width: 190px;
+  object-fit: cover;
+  height: 260px;
+  text-align: center;
+  margin-left: 25px;
+  border: solid whitesmoke;
+}
+
+/* Sobre mí*/
+
+.Sobre-mi2{
+  text-align: center;
+  font-family:Arial, Helvetica, sans-serif;
+  -webkit-background-clip: text;
+  color: transparent;
+  padding: 10px;
+  -webkit-text-stroke: 1px whitesmoke;
+  color: transparent;
+  font-size: medium ;
+}
